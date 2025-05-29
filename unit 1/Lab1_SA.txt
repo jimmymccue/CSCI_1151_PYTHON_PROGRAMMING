@@ -1,0 +1,10 @@
+When naming and using variables in Python, there are a few best practices to keep in mind. 
+Variable names should only contain letters, numbers, and underscores, and they must start with a letter 
+or an underscore and not a number. You can’t use spaces in variable names, so it’s better to use 
+underscores to separate words, like “greeting_message” and running the words together like “greetingmessage” 
+could get confusing. It’s also important to avoid using Python’s keywords or built-in function names, 
+such as print, as variable names. Good variable names are usually short but still describe what the variable 
+is used for. For example, user_name is more helpful than just u_n. It’s also a good idea to avoid using 
+letters like lowercase l or uppercase O because they can look like the numbers 1 and 0. Even though Python 
+lets you use uppercase letters in variable names, it’s better to stick with lowercase since uppercase names 
+are used for constants.  You should also be careful not to confuse the variable name when calling it.
