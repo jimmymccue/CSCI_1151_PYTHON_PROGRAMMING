@@ -1,0 +1,8 @@
+An IndexError in Python occurs when you try to access a position in a list that doesn't exist. 
+For example, if you have a list with three items and ask for the item at index 3, Python will raise an 
+IndexError: list index out of range because list indexing starts at 0, not 1. So the first item is at index 0, 
+the second at index 1, and the third at index 2. If you get an index error try adjusting the index you're 
+using to fix the issue. A common way to safely access the last item in a list is by using index -1, which always 
+returns the last element no matter how long the list is. Be careful using this on an empty list, as it will still 
+raise an IndexError. If you're unsure why you're getting the error, print the list or its length to better 
+understand its current state.
