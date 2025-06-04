@@ -1,0 +1,8 @@
+Answer  one of the following questions for full credit for this assignment. Paste your response or github link of your response in the "Create Submission" Option, or attach a PDF in the "Attach Files" Option.  Your answer should showcase your knowledge of the area in a minimum of 150 words. Provide the question that you are answering or provide the question in the answer for easy reference.
+ 
+Conditional statements look to resolve the result of Boolean expressions. 
+Search the internet and explain what is meant to “short circuit” an ‘and’ chain. An ‘or’ chain.
+It is possible to nest if conditions inside other if conditions. Why should you limit how 
+deeply you nest if sequences? Search the internet for arguments.
+Search the internet for “stepwise refinement” in programming. 
+What is it and how can it help a programmer?

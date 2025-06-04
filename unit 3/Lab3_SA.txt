@@ -1,0 +1,13 @@
+How are the while loop and for loop similar and different?
+
+In Python, for loops and while loops are both code structures used to execute a 
+block of code multiple times. They are similar in that they allow repetition and 
+support flow control features such as break to exit the loop early, continue to 
+skip to the next iteration, and an optional else clause that runs if the loop 
+completes normally without encountering a break. Despite their similarities, for 
+and while loops differ in how they control repetition. A for loop is designed to 
+iterate over a sequence such as a list, tuple, dictionary, string, or a range 
+object. It is typically used when the number of iterations is known ahead of time or 
+when working directly with elements in a collection. On the other hand, a while 
+loop continues to run as long as a specified condition remains true. It is more 
+suitable for scenarios where the number of repetitions cannot be determined in advance.
