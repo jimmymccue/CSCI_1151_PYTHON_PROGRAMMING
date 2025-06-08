@@ -1,0 +1,12 @@
+If you reference a non-existing key Python will raise a KeyError. This error indicates 
+that the key you’re trying to access is not present in the dictionary. To prevent your 
+program from crashing, there are some ways to avoid the issue. One common approach is 
+to use the .get() method, which allows you to provide a default value if the key isn't 
+found. For example, my_dictionary.get('key', default_value) will return default_value 
+instead of raising an error.  If you do not set a default value it will return the ‘None’ 
+rather than a KeyError.  Another option is to check if the key exists using 'key' in 
+my_dict before accessing it. You can also use a try/except block to catch the KeyError 
+and handle it safely. You can also use collections.defaultdict if you want missing keys 
+to automatically initialize with a default type like int or list. This is especially 
+useful for counters or grouping values. Each method has its use case depending on your 
+program’s logic, but these tools help you write more error free code.
