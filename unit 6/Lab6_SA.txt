@@ -1,0 +1,14 @@
+In Python, you are not required to use the loop variable inside the body of a for loop. 
+Sometimes, the loop variable is simply there to help repeat an action a certain number of 
+times, and it may not be used at all. In such cases, Python developers often use an 
+underscore _ to indicate that the variable isn’t needed. For example, if you want to print 
+"Hello" five times, you might write:
+
+for _ in range(5):
+    print("Hello")
+
+This helps make your intention clear—that you’re looping just for repetition, not because 
+you need the value of the variable. While you technically must declare a loop variable in a 
+for loop, you have the flexibility not to reference it within the loop’s body. This is useful 
+for creating cleaner, more readable code when the loop index or value is irrelevant to the 
+logic being executed within the loop.
