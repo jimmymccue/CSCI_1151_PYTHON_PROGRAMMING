@@ -21,9 +21,11 @@ while logging_in:
   username = input('Please enter your username: ')
   if username in username_pass:
     password = input('Please enter your password: ')
-    if password == username_pass[f'{username}']:
-      if username != 'guest':
-        security_level = 1
+    if password == username_pass[username]:
+      if username == 'guest':
+          security_level = 0
+      else:
+          security_level = 1
       logging_in = False
       print(f'{username} is logged in with a security level of {security_level}')
       input('Press enter to log out: ')
