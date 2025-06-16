@@ -1,3 +1,10 @@
+"""
+    Circle/Rectangle Calculator
+      Jimmy McCue
+      The program allows a user to choose a calculator function for a Circle or a Rectangle
+      06-16-2025
+"""
+
 import Circle as c
 import Rectangle as r
 
