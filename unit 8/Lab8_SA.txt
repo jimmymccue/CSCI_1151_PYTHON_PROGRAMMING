@@ -1,0 +1,10 @@
+One S.O.L.I.D. principle I found really interesting is the Single Responsibility Principle. 
+From what I understand, it means that a class should only do one specific job in a program. 
+If a class tries to do too many things, it can get confusing and harder to work with later. 
+For example, if one class handles user input, saves data, and formats the output, then 
+changing one part might mess up something else. That sounds like a headache when trying to 
+fix bugs or add new features. To follow this principle, I think it's a good idea to split 
+the responsibilities into separate classes. Like, maybe one class just gets input from the 
+user, another does the calculations or processing, and another saves the results. That way, 
+if something needs to change, you're only updating one focused piece of the program. I'm still 
+learning, but I can see how this would make bigger programs easier to manage.
