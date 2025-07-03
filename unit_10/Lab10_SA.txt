@@ -1,0 +1,14 @@
+
+In software testing, the term "full coverage" typically means achieving 100% code 
+coverage every line, branch, or condition in the code has been executed by tests. While 
+this might sound ideal, it’s important to understand what that really means and whether 
+it’s a practical goal for every project.  Full coverage can increase confidence in the 
+code and catch untested or unreachable sections. It’s especially important in safety 
+critical systems like medical devices or aviation software, where every possible path 
+must be verified. In these cases, full coverage might even be required by law or 
+industry standards. However, in most projects, aiming for 100% coverage may not be worth 
+the effort. Some code, like basic getters or error messages, doesn’t add much value when 
+tested. Also, high coverage doesn’t guarantee all edge cases or behaviors are properly 
+tested it just means the code ran. So while full coverage can be useful, it's often 
+better to aim for meaningful coverage that focuses on critical paths and likely failure 
+points.
