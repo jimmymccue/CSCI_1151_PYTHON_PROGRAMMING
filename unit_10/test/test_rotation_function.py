@@ -17,8 +17,10 @@ def test_460_returns_100():
     assert rotation_number == 100
     
 
-# def test_820_returns_100():
-#     pass
+def test_820_returns_100():
+    """Simple test case for to make sure the strip rotation function works for numbers above 720"""
+    rotation_number = strip_rotation(460)
+    assert rotation_number == 100
 
 # def test_negative_100_returns_260():
 #     pass
