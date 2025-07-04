@@ -13,9 +13,7 @@ def strip_rotation(angle: int):
       return "You must enter a numeric value"
   
   else:
-    if angle > 360:
-      return angle % 360
-    elif angle < 0:
+    if angle > 360 or angle < 0:
       return angle % 360
     else:
       return angle
