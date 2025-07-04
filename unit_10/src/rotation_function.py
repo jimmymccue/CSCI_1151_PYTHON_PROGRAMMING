@@ -8,6 +8,6 @@ def strip_rotation(angle):
   if angle >360:
     return angle % 360
   elif angle < 0:
-    return 360 + angle
+    return angle % 360
   else:
     return angle

@@ -27,8 +27,10 @@ def test_negative_100_returns_260():
     rotation_number = strip_rotation(-100)
     assert rotation_number == 260
 
-# def test_negative_460_returns_260():
-#     pass
+def test_negative_460_returns_260():
+    """Simple test case for to make sure the strip rotation function works for negative numbers below -360"""
+    rotation_number = strip_rotation(-460)
+    assert rotation_number == 260
 
 # def test_negative_820_returns_260():
 #     pass
