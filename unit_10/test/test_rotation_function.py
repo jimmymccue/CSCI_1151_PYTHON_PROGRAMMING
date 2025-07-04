@@ -7,9 +7,9 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 's
 from rotation_function import strip_rotation
 
 def test_100_returns_100():
-    """Simple test case for to make sure the strip rotation works"""
-    rotaion_number = strip_rotation(100)
-    assert rotaion_number == 100
+    """Simple test case for to make sure the strip rotation function works"""
+    rotation_number = strip_rotation(100)
+    assert rotation_number == 100
 
 # def test_460_returns_100():
 #     pass
