@@ -37,5 +37,8 @@ def test_negative_820_returns_260():
     rotation_number = strip_rotation(-820)
     assert rotation_number == 260
 
-# def test_non_numeric_catches_exception():
-#     pass
+def test_non_numeric_catches_exception():
+    """Simple test case to make sure the strip rotation function throws an exception for non numerical input"""
+    non_numeric = "this is not a number"
+    rotation_number = strip_rotation(non_numeric)
+    assert rotation_number == "You must enter a numeric value"
