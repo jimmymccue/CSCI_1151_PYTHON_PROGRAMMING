@@ -1,0 +1,15 @@
+Double Buffering and pygame.display.flip()
+
+When working with computer graphics, double buffering is a technique used to make 
+animations and screen updates look smooth and clean. Instead of drawing directly to the 
+screen which can cause flickering or tearing everything is first drawn to a hidden 
+off-screen buffer. Once all the drawing is finished that buffer is swapped with the one 
+being displayed to the user. This results in a seamless update where the user only sees 
+the completed frame and not the process of drawing it.
+
+In Pygame, the pygame.display.flip() method is directly related to double buffering. It 
+performs the buffer swap making everything that was drawn in the background visible all 
+at once. Without this method the graphics might appear choppy or update in pieces. 
+Using flip() ensures that what the player sees is smooth and consistent especially in 
+fast paced or animated games where every frame needs to be drawn clearly and without 
+delay.
