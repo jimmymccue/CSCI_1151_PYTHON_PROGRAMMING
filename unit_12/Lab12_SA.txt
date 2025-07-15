@@ -1,0 +1,15 @@
+The groupcollide() function in Pygame is used to check for collisions 
+between two groups of sprites. In the case of Chapter 13, it's used to 
+see if any bullets fired from the rocket ship hit the alien ships. You 
+give it two sprite groups like bullets and aliens and it will go through 
+and figure out which sprites from each group are touching. If it finds a 
+match, it returns a dictionary showing which bullets hit which aliens.
+There are also two optional settings that let you decide whether or not 
+to delete the bullet, the alien, or both when a collision happens. In our 
+project we want both to disappear when they collide so we set both of 
+those options to True. This method makes handling collisions way easier 
+especially when there are lots of objects on the screen at once. It’s 
+also worth noting that groupcollide() checks collisions based on the 
+rectangular area of each sprite, so having accurate rect values is 
+important for proper detection.
+
