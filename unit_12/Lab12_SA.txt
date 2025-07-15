@@ -12,4 +12,3 @@ especially when there are lots of objects on the screen at once. It’s
 also worth noting that groupcollide() checks collisions based on the 
 rectangular area of each sprite, so having accurate rect values is 
 important for proper detection.
-
