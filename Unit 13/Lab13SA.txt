@@ -1,0 +1,11 @@
+In Chapter 14, the question comes up about why the author uses triple-quoted strings 
+also known as docstrings for classes and functions like in the Button class example. 
+These docstrings actually play a big role in helping programmers with their workflow. 
+They act like built-in notes that explain what a class, method or function is supposed 
+to do. This makes it way easier to understand code at a glance, especially when you 
+come back to it after some time or if someone else wrote it. Instead of having to read 
+through every line to figure out what’s going on you get a clear summary right at the 
+top. Tools like Python’s help() function or code editors like VSCode can pull in those 
+docstrings and show them automatically, which is super convenient. They also come in 
+handy for generating documentation without extra effort. So even though they seem small
+docstrings really help keep code readable, organized and efficient to work with.
