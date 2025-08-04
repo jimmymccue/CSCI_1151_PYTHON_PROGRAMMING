@@ -1,0 +1,15 @@
+Colormaps are a great way to turn data into something we can 
+easily understand by using colors. In Python, tools like 
+Matplotlib make it simple to apply colormaps to things like 
+temperature or rainfall. For example, cooler temperatures are 
+often shown in blue, while hotter ones shift toward red, something 
+that just makes sense visually. Rainfall is usually shown in
+shades from green to purple with heavier rain getting darker 
+colors. Agencies like NASA and NOAA use these techniques to help 
+people quickly see where extreme weather is happening. One cool 
+example is the Global Precipitation Measurement project, which 
+maps rainfall intensity around the world using color. In Python, 
+you can customize how your data looks by using the cmap= argument 
+in your plots—for instance, cmap='coolwarm' for temperature data 
+or cmap='viridis' for general use. It’s a simple way to make 
+trends and patterns in your data much easier to spot.
