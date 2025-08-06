@@ -1,0 +1,11 @@
+CSV and JSON are both ways to store and share data, but they’re pretty different. CSV is 
+super simple: it just has rows of data with commas separating each value. It’s great for 
+spreadsheets or any data that’s basically a table with rows and columns. But it can’t 
+handle anything complicated like nested information. JSON, on the other hand, uses 
+key-value pairs and can store more complex data like lists inside lists or objects 
+inside objects, so it’s perfect when you need to represent things with more structure. 
+For CSV, the best data types are simple ones like strings, integers, and floats since 
+everything is stored as plain text. With JSON, you can use not only those but also 
+booleans, arrays, and even nested objects, which makes it way more flexible for more 
+detailed data. That’s why JSON is often used in web development and APIs, while CSV is 
+great for simple data exports.
